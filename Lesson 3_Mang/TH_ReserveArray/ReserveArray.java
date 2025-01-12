@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class TH_ReserveArray {
+public class ReserveArray {
     public static void main(String[] args) {
-    int size;
-    int [] array;
-    Scanner scanner = new Scanner(System.in);
-    do {
-        System.out.println("Enter a size:");
-        size = scanner.nextInt();
-        if (size > 20)
-            System.out.println("Size does not 20");
+        int size;
+        int [] array;
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.println("Enter a size:");
+            size = scanner.nextInt();
+            if (size > 20)
+                System.out.println("Size does not 20");
         } while (size > 20);
         array = new int[size];
         int i = 0;
