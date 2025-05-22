@@ -7,22 +7,30 @@ public class BankAccount {
         this.balance = 0; // Khởi tạo số dư bằng 0
     }
 
+    //Getter
     public String getOwnerName() {
-        return ownerName;
+        return this.ownerName;
     }
 
     public double getBalance() {
-        return balance;
+        return this.balance;
     }
-
+    // Setter
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+    //Xử lý ngoại lệ
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
+            System.out.println("Nạp tiền thành công.");
         } else {
             System.out.println("Số tiền nạp vào phải là số dương.");
         }
     }
-
     public void withdraw(double amount) {
         if (amount > 0) {
             if (amount <= balance) {

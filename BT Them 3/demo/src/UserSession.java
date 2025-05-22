@@ -5,7 +5,7 @@ public class UserSession {
             onlineCount++;
         }
     public void logout(){
-          onlineCount--;
+        onlineCount--;
        }
     public static int getOnlineCount() {
         return onlineCount;
