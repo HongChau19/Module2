@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="junit-jupiter-engine-5.13.0-RC1-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../junit-jupiter-engine-5.13.0-RC1-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
