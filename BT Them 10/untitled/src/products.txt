@@ -1,0 +1,3 @@
+P001,Ao thun,150000
+P002,Quan jean,300000
+P003,Giay the thao,450000
