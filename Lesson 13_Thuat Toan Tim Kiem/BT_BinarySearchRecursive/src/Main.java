@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Bước 1: Khởi tạo một mảng bất kì với các giá trị được nhập vào từ bàn phím
         System.out.print("Nhập số lượng phần tử của mảng: ");
         int n = scanner.nextInt();
 
@@ -19,14 +18,12 @@ public class Main {
 
         System.out.println("Mảng ban đầu: " + Arrays.toString(array));
 
-        // Bước 2: Sắp xếp lại mảng trên theo thứ tự từ bé đến lớn
-        Arrays.sort(array); // Sử dụng hàm sort của Java để sắp xếp mảng
+        Arrays.sort(array);
         System.out.println("Mảng sau khi sắp xếp: " + Arrays.toString(array));
 
         System.out.print("Nhập giá trị cần tìm: ");
         int valueToFind = scanner.nextInt();
 
-        // Gọi hàm tìm kiếm nhị phân từ lớp BinarySearchRecursive
         int result = BinarySearchRecursive.find(array, 0, array.length - 1, valueToFind);
 
         if (result != -1) {
