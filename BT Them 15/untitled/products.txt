@@ -1,0 +1,3 @@
+P001,Áo thun,150000
+P002,Quần jean,300000
+P003,Giày thể thao,450000
